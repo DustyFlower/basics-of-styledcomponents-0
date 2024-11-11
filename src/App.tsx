@@ -9,6 +9,7 @@ function App() {
     return (
         <div className="App">
             <Menu>
+                <h1>Title</h1>
                 <ul>
                     <li><a href="#">menu item 1</a></li>
                     <li><a href="#">menu item 2</a></li>
