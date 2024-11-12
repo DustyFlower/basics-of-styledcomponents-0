@@ -41,9 +41,9 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`//так переда
             background-color: #4053cc;
         }
     `}
-    
+
     ${props => props.active && css<StyledBtnPropsType>`
-    box-shadow: 5px 5px 5px 5px rgba(37, 37, 44, 0.6);
+        box-shadow: 5px 5px 5px 5px rgba(37, 37, 44, 0.6);
     `}
     //конструкция для применения динамических значений пропсов
 `
